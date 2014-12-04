@@ -1,0 +1,24 @@
+{
+  "name": "angular-konami",
+  "version": "0.3.0",
+  "description": "angular-konami ==============",
+  "main": "angular-konami.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandrehebert/angular-konami.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandrehebert/angular-konami/issues"
+  },
+  "homepage": "https://github.com/alexandrehebert/angular-konami",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1"
+  }
+}
