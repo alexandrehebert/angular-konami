@@ -6,7 +6,7 @@ angular.module('konami', []).directive("konami", ['$document', function ($docume
 
     function link(scope, element, attrs) {
 
-        var konamiKeys = angular.isUndefined(attrs.keys)
+        var konamiKeys = !angular.isUndefined(attrs.keys)
             ? attrs.keys : [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
         var konamIndex = 0;
 
